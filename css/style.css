@@ -1,12 +1,28 @@
+/* texto */
+
+.main-texto-p{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  color: rgba(115, 97, 40, 0.8);
+}
+
 .categoria-sub-text{
   font-family: 'Kanit';
   font-weight: 300;
   color: rgba(255, 255, 255, 0.5);
 }
 
+/* Cores */
+
 .main-purple{
   background: #6976BF;
 }
+
+.main-blue{
+  color: #343D73;
+}
+/* Sombras */
 
 .img-shadow-card{
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -32,6 +48,12 @@
   border-radius: 10px;
 }
 
+/* Animacoes */
+
+.main-button:hover{
+  background: #343D73;
+  color: #FFFFFF;
+}
 
 .card:hover{
   background: #343D73;
