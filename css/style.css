@@ -1,5 +1,15 @@
+.categoria-sub-text{
+  font-family: 'Kanit';
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+}
+
 .main-purple{
   background: #6976BF;
+}
+
+.img-shadow-card{
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .box-shadow{
@@ -7,3 +17,22 @@
   0 4px 8px 0 rgb(0, 0, 0, .05);
 }
 
+.box-shadow-text{
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-card{
+  border: none;
+  background: rgba(105, 118, 191, 0.53);
+  box-shadow: 0px 24px 10px rgba(0, 0, 0, 0.01), 0px 14px 8px rgba(0, 0, 0, 0.05), 0px 6px 6px rgba(0, 0, 0, 0.09), 0px 2px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+
+.card:hover{
+  background: #343D73;
+}
