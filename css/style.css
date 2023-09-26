@@ -13,15 +13,25 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
+.footer-sub-text{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
 /* Cores */
 
 .main-purple{
   background: #6976BF;
 }
 
+.main-blue-bg{
+  background: #343D73;
+}
 .main-blue{
   color: #343D73;
 }
+
 /* Sombras */
 
 .img-shadow-card{
@@ -57,4 +67,8 @@
 
 .card:hover{
   background: #343D73;
+}
+
+.icon:hover{
+  fill: rgba(115, 97, 40, 0.8);
 }
