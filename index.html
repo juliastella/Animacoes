@@ -26,27 +26,32 @@
 
     <div class="container">
 
-      <a href="index.html" class="navbar-brand text-light">
-        <img src="./img/Groupsofa.svg" alt="Sofa" width="35">
-        JsAnicoes
-      </a>
+      <div>
+        <a href="index.html" class="navbar-brand text-light">
+          <img src="./img/svg/Groupsofa.svg" alt="Sofa" width="35">
+        </a>
+      </div>
 
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <div class="navbar-collapse collapse show justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
+
           <li class="nav-item">
-            <a class="nav-link active text-light" aria-current="page" href="#">Animações</a>
+            <a class="nav-link active text-light link-navbar" aria-current="page" href="#">Animações</a>
           </li>
+
           <li class="nav-item">
-            <a class="nav-link text-light" href="#">Famosas</a>
+            <a class="nav-link text-light link-navbar" href="#">Famosas</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled text-light" href="#">Brasil</a>
+
+          <li class="nav-item pe-4">
+            <a class="nav-link text-light link-navbar" href="#">Brasil</a>
           </li>
+
           <li class="nav-item">
             <a class="btn btn-outline-light ml-md-2" href="inscricao.html">Inscreva-se</a>
           </li>
@@ -56,52 +61,57 @@
 
   </nav>
 
-  <section class="container-fluid p-0">
-    <div id="carouselAnimacoes" class="carousel slide" data-ride="carousel">
+  <section class="container-lg-fluid">
 
-      <div class="carousel-indicators">
+    <div class="row-cols-1">
 
-        <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <div id="carouselAnimacoes" class="carousel slide" data-ride="carousel">
 
+        <div class="carousel-indicators">
+
+          <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselAnimacoes" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+        </div>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h2 class="display-4" style="font-family: 'Outfit';
+              font-weight: 700;">Lilo and Stitch</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption">
+              <h2 class="display-4" style="font-family: 'Outfit';
+              font-weight: 700;">Lilo and Stitch</h2>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h2 class="display-4" style="font-family: 'Outfit';
+              font-weight: 700;">Lilo and Stitch</h2>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnimacoes" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselAnimacoes" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-
-      <div class="carousel-inner ">
-
-        <div class="carousel-item active">
-          <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <h2 class="display-4" style="font-family: 'Outfit';
-            font-weight: 700;">Lilo and Stitch</h2>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption">
-            <h2 class="display-4" style="font-family: 'Outfit';
-            font-weight: 700;">Lilo and Stitch</h2>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="./img/primeiras-imagens-lilo-stitch.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h2 class="display-4" style="font-family: 'Outfit';
-            font-weight: 700;">Lilo and Stitch</h2>
-          </div>
-        </div>
-      </div>
-
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnimacoes" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselAnimacoes" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
+
   </section>
 
   <section class="container-fluid">
@@ -206,13 +216,13 @@
       </div>
   </section>
 
-  <section class="container-fluid">
-    <div class="container my-4">
+  <section class="container-fluid my-5">
+    <div class="container py-2">
       <div class="py-4">
-        <h1 class="display-4 box-shadow-text text-dark">Novos episodios</h1>
+        <h1 class="display-4 box-shadow-text text-dark pb-3">Novos episodios</h1>
       </div>
 
-      <table class="table table-hover table-responsive-md mb-3">
+      <table class="table table-hover table-responsive-md">
         <thead>
           <tr>
             <th scope="col">Data</th>
@@ -263,8 +273,8 @@
 
           <ul class="d-flex align-items-center list-unstyled">
             <li><a class="btn btn-outline-primary" href="#"><img src="./img/svg/Facebook.svg" alt="Logo Facebook" width="31" height="30"></a></li>
-            <li><a class="btn btn-outline-success mx-1" href="#"><img class="bi-instagram" src="./img/svg/linkedin.svg" alt="Logo Facebook" width="32" height="31"></a></li>
-            <li><a class="btn btn-outline-dark" href="#"><img class="bi-instagram" src="./img/svg/github.svg" alt="Logo Facebook" width="31" height="30"></a></li>
+            <li><a class="btn btn-outline-success mx-1" href="https://www.linkedin.com/in/j%C3%BAlia-stella-52b10b19a/"><img src="./img/svg/linkedin.svg" alt="Logo Facebook" width="32" height="31"></a></li>
+            <li><a class="btn btn-outline-dark" href="https://github.com/juliastella"><img src="./img/svg/github.svg" alt="Logo Facebook" width="31" height="30"></a></li>
           </ul>
         </div>
 
@@ -272,7 +282,7 @@
     </div>
 
     <div class="main-purple  text-center py-3">
-      <p class="mb-0 h5" style="font-family: 'Kanit'; font-weight: 300;">Júlia Stella © 2023. Alguns direitos reservados.</p>
+      <p class="mb-0" style="font-family: 'Kanit'; font-weight: 300;">Júlia Stella © 2023. Alguns direitos reservados.</p>
     </div>
 
   </footer>
