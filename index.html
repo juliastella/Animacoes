@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/bootstrap.css">
+  <link rel="stylesheet" href="./css/style.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
@@ -12,53 +17,42 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;500&display=swap" rel="stylesheet">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <link rel="stylesheet" href="./css/style.css">
-
-
-  <title>Animações</title>
+  <title>Document</title>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg fixed-top py-3 main-purple shadow-lg">
+  <nav class="navbar navbar-expand-lg  fixed-top main-purple shadow-lg">
 
     <div class="container">
 
       <div>
-        <a href="index.html" class="navbar-brand text-light">
+        <a class="navbar-brand" href="index.html">
           <img src="./img/svg/Groupsofa.svg" alt="Sofa" width="35">
         </a>
       </div>
 
-
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+      <button class="navbar-toggler navbar-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
-      <div class="navbar-collapse collapse show justify-content-end" id="navbarNav">
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-
           <li class="nav-item">
-            <a class="nav-link active text-light link-navbar" aria-current="page" href="#">Animações</a>
+            <a class="nav-link active text-light link-navbar" aria-current="page" href="#historia">História</a>
           </li>
-
           <li class="nav-item">
-            <a class="nav-link text-light link-navbar" href="#">Famosas</a>
+            <a class="nav-link text-light link-navbar" href="#catgotia">Categoria</a>
           </li>
-
           <li class="nav-item pe-4">
-            <a class="nav-link text-light link-navbar" href="#">Brasil</a>
+            <a class="nav-link text-light link-navbar" href="#episodios">Novos Episodios</a>
           </li>
-
           <li class="nav-item">
-            <a class="btn btn-outline-light ml-md-2" href="inscricao.html">Inscreva-se</a>
+            <a class="btn btn-outline-light" href="inscricao.html">Inscreva-se</a>
           </li>
         </ul>
       </div>
     </div>
-
   </nav>
 
   <section class="container-lg-fluid">
@@ -114,7 +108,7 @@
 
   </section>
 
-  <section class="container-fluid">
+  <section id="historia" class="container-fluid">
 
     <div class="container my-5">
       <div class="row justify-content-md-around">
@@ -139,7 +133,7 @@
   </section>
 
 
-  <section class="container-fluid">
+  <section id="catgotia" class="container-fluid">
 
     <div class="row justify-content-md-around py-5 main-purple text-white">
       <div class="col-md-1 align-self-center text-start">
@@ -216,7 +210,7 @@
       </div>
   </section>
 
-  <section class="container-fluid my-5">
+  <section id="episodios" class="container-fluid my-5">
     <div class="container py-2">
       <div class="py-4">
         <h1 class="display-4 box-shadow-text text-dark pb-3">Novos episodios</h1>
@@ -289,8 +283,8 @@
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  <script type="text/javascript" src="./js/bootstrap.js"></script>
-  <script type="text/javascript" src="./js/app.js"></script>
+
+  <script src="./js/app.js" type="javascript "></script>
 </body>
 
 </html>

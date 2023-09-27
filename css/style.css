@@ -59,6 +59,7 @@
   border-radius: 10px;
 }
 
+
 /* Animacoes */
 
 .main-button:hover{
@@ -75,5 +76,14 @@
 }
 
 .link-navbar:hover{
+  display: inline-block;
   border-bottom: 1px solid #FFFFFF;
+}
+
+/* media */
+
+@media (max-width: 480px) {
+  .link-navbar:hover{
+    border-bottom: none;
+  }
 }
